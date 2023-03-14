@@ -13,7 +13,7 @@ if (!process.env.OPENAI_API_KEY) {
 }
 
 const configuration = new Configuration({
-  apiKey: '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',
+  apiKey: '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',
 });
 export const openai = new OpenAIApi(configuration);
 
