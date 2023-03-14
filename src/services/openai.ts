@@ -7,13 +7,13 @@ import {
 } from "openai";
 
 // This file contains utility functions for interacting with the OpenAI API
-//
-// if (!process.env.OPENAI_API_KEY) {
-//   throw new Error("Missing OPENAI_API_KEY environment variable");
-// }
+
+if (!process.env.OPENAI_API_KEY) {
+  throw new Error("Missing OPENAI_API_KEY environment variable");
+}
 
 const configuration = new Configuration({
-  apiKey: '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',
+  apiKey:  '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',
 });
 export const openai = new OpenAIApi(configuration);
 
