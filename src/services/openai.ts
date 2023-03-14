@@ -5,6 +5,7 @@ import {
   CreateCompletionResponse,
   OpenAIApi,
 } from "openai";
+import * as process from "process";
 
 // This file contains utility functions for interacting with the OpenAI API
 
@@ -13,7 +14,7 @@ if (!process.env.OPENAI_API_KEY) {
 }
 
 const configuration = new Configuration({
-  apiKey: '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',
+  apiKey:'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',
 });
 export const openai = new OpenAIApi(configuration);
 
