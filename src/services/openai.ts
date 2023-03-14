@@ -13,7 +13,7 @@ import {
 // }
 
 const configuration = new Configuration({
-  apiKey: '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',
+  apiKey: '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',
 });
 export const openai = new OpenAIApi(configuration);
 
